@@ -171,7 +171,7 @@ class TabBarNavigator extends Component {
     };
     var navBar = (
       <Navigator.NavigationBar
-        style={{backgroundColor: this.props.navBarTintColor ? this.props.navBarTintColor : 'rgba(0,0,0,.8)', alignItems: 'center', borderBottomWidth: 1, borderBottomColor: '#ddd' }}
+        style={{backgroundColor: this.props.navBarTintColor ? this.props.navBarTintColor : 'rgba(0,0,0,.8)', alignItems: 'center' }}
         routeMapper={this.navRouter}
         />
     );
