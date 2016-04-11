@@ -61,7 +61,7 @@ class MainTabBar extends Component {
     this.setState({
       selectedTab: tabId
     });
-    this.props.onChange(tabId);
+    this.props.onChange && this.props.onChange(tabId);
   }
   renderTabBarItems() {
     var items = [];
